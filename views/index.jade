@@ -1,0 +1,18 @@
+extends ./layout.jade
+
+block content
+  h1 Request Header Parser Microservice
+  
+  h3 User Stories
+
+  ol
+    li  I can get the IP address, language and operating system for my browser.
+    
+  h4 Example Usage
+  ul
+    li 
+      a(href="/whoami") #{baseurl}/whoami
+    
+  h4 Example output
+  
+  pre {"ip": "127.0.0.1", "language":"en", "operating_system":"Linux"}
